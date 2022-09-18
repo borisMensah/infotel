@@ -1,0 +1,8 @@
+.item-launch {
+    margin: 30px;
+}
+
+.launch-preview{
+    display: grid;
+    background-color: rgb(178, 236, 236);
+}

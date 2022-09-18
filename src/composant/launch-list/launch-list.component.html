@@ -1,0 +1,12 @@
+<div>
+    <div  *ngFor="let launcher of launchers" class="item-launch" >
+        <a  [routerLink]="['/launch', launcher.id]">
+            <div class="launch-preview">
+                <span>launcher_name: {{launcher.name}} </span>
+                <span>launcher_status: {{launcher.status}} </span>
+                <span>window_start: {{launcher.window_start}} </span>
+                <span>window_end: {{launcher.window_end}} </span>
+            </div>
+        </a>
+    </div>
+</div>
